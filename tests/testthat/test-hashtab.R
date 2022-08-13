@@ -20,3 +20,4 @@ test_that("first access returns null object", {
 	expect_equal(gethash(h, "x"), NULL)
 	expect_equal(gethash(h, "x"), 1)
 })
+
